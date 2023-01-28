@@ -1,0 +1,28 @@
+declaração de vetor:
+let produtos = [] ou let produtos = new array()
+
+declarando vetor com valores:
+let produtos = [ 'arroz', 'feijão', 'iorgute'];
+
+atribuindo valores por índice:
+let idades = [];
+idade[0] = 19;
+idade[1] = 16;
+
+métodos de vetores : 
+    push() - adiciona um elemento ao final do vetor.
+    unshift() - adiciona um elemento ao início do vetor e desloca os elementos existentes uma posição abaixo.
+    pop() - remove o último elemento do vetor.
+    shift() - remove o primeiro elemento do vetor e desloca os elementos existentes uma posição acima.
+    splice - remove pelo índice do elemento , recebe 2 parâmentros para remover , o 1º é o índice que vai dar início a remoção
+    e o 2º são quantos elementos serão removidos a partir do 1º índice de paramentro.
+        ex splice: 
+            number = [ 1 , 2 , 3, 4, 5];
+            let removido = number.splice(1, 1)
+                                        índice / quantidade
+                                        o número 2 está sendo removido 
+
+métodos toString() e join():
+    let cidades = ["Pelotas", "São Lourenço", "Porto Alegre"];
+    alert(cidades.toString() + "\n\n" + cidades.join(" - "));
+        toString sempre separa por vírgula e join é você que escolhe o caracter de separação.
